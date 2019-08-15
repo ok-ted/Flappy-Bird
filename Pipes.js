@@ -27,7 +27,7 @@ function Pipe()
     fill(255); //white
     if (this.highlight)//if highlight returns true
     {
-      fill(255, 0, 0); //3 numbers measuring 3 different colors RGB. (completely red)
+      fill(51, 151, 184); //3 numbers measuring 3 different colors RGB. (completely red)
     }
     rect(this.x, 0, this.w, this.top); //draw rectangle
     rect(this.x, height-this.bottom, this.w, this.bottom); //width and height

@@ -19,7 +19,7 @@ function draw() //begins to draw objects
     pipes[i].update(); //moves pipes across the screen
     if (pipes[i].hits(bird)) //create collision
     {
-      console.log("HIT");
+      console.log("HIT");//when bird hit pipe
     }
     if (pipes[i].offscreen())
     {
